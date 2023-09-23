@@ -1,0 +1,26 @@
+{
+    "usuarios": [
+      {
+        "id": 1,
+        "nombre": "Juan Pérez",
+        "email": "juan@example.com",
+        "telefono":2223456760,
+        "comentario":" " 
+      },
+      {
+        "id": 2,
+        "nombre": "María Rodríguez",
+        "email": "maria@example.com",
+        "telefono": 2549033403,
+        "comentario": " "
+      },
+      {
+        "id": 3,
+        "nombre": "Carlos López",
+        "email": "carlos@example.com",
+        "telefono": 2823343568,
+        "comentario":" "
+      }
+    ]
+  }
+  
