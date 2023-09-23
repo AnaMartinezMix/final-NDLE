@@ -1,5 +1,5 @@
 {
-  "extends": "./tsconfig.app.json",
+  "extends": "./jsconfig.app.json",
   "exclude": [],
   "compilerOptions": {
     "composite": true,

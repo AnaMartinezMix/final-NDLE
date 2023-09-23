@@ -1,5 +1,5 @@
 {
-  "extends": "@tsconfig/node18/tsconfig.json",
+  "extends": "@jsconfig/node18/jsconfig.json",
   "include": [
     "vite.config.*",
     "vitest.config.*",
