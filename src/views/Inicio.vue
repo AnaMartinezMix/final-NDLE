@@ -12,6 +12,7 @@ import Inicio from '@/components/views/Inicio.vue';
                 <div class="masthead-subheading">¡Bienvenido! :)</div>
                 <div class="masthead-heading text-uppercase">¡Somos NdE Chilpancingo!</div>
                 <a class="btn btn-primary btn-xl text-uppercase" href="#services">Saber más...</a>
+                <h1>Holaa</h1>
             </div>
         </header>
 </template>
