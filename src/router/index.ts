@@ -13,27 +13,27 @@ const router = createRouter({
     {
       path: '/conocenos',
       name: 'conocenos',
-      component: () => import('../views/conocenosView.vue')
+      component: () => import('../views/AboutView.vue')
     },
     {
       path: '/servicios',
       name: 'servicios',
-      component: () => import('../views/serviciosView.vue')
+      component: () => import('../views/AboutView.vue')
     },
     {
       path: '/sedes',
       name: 'sedes',
-      component: () => import('../views/sedesView.vue')
+      component: () => import('../views/AboutView.vue')
     },
     {
       path: '/nuestroequipo',
       name: 'nuestroequipo',
-      component: () => import('../views/nuestroequipoView.vue')
+      component: () => import('../views/AboutView.vue')
     },
     {
       path: '/Suscribete',
       name: 'Suscribete',
-      component: () => import('../views/SuscribeteView.vue')
+      component: () => import('../views/AboutView.vue')
     },
   ]
 })

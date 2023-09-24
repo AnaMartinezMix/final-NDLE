@@ -379,6 +379,7 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  appearance: checkbox;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
