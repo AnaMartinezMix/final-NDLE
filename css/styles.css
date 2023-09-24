@@ -1,9 +1,7 @@
 @charset "UTF-8";
-
 :root {
   --bs-primary-rgb: 255, 200, 0;
   --bs-white-rgb: 255, 255, 255;
-  
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -8936,22 +8934,21 @@ p {
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 0.75rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Noto Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #ffc800;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Noto Sans', sans-serif;
   font-weight: 700;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-  height: 1.5rem;
+  height: 3rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Noto Sans', sans-serif;
   font-size: 0.95rem;
   color: #fff;
   letter-spacing: 0.0625em;
@@ -9045,8 +9042,6 @@ header.masthead .masthead-heading {
   max-width: 26rem;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("../assets/img/star.jpg");
- 
 }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
@@ -9094,7 +9089,6 @@ header.masthead .masthead-heading {
 .portfolio-modal .modal-dialog {
   margin: 1rem;
   max-width: 100vw;
- 
 }
 .portfolio-modal .modal-content {
   padding-top: 6rem;
@@ -9137,7 +9131,6 @@ header.masthead .masthead-heading {
 .team-member {
   margin-bottom: 3rem;
   text-align: center;
-  background-image: url("../assets/img/star.jpg");
 }
 .team-member img {
   width: 14rem;
@@ -9157,7 +9150,7 @@ header.masthead .masthead-heading {
 /* Sección de contacto */
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/foto.jpg");
+  background-image: url("../assets/img/star.jpg");
   background-repeat: no-repeat;
   background-position: center;
   color: white;
