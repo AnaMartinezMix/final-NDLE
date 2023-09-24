@@ -2,11 +2,30 @@
 </script>
 
 <template>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>NdE Chilpancingo</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/LogoNdeC.png">
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
+  </head>
   <div id="app">
 <body id="page-top">
   <div class="container">
-    <a class="navbar-brand" href="#page-top"><img src="@/assets/imagenes/LogoNdeC.png" alt="Logo de noche de las estrellas" /></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+    <div class="left">
+      <div class="left-inner">
+        <div>
+          <img src="@/assets/imagenes/Inicio/LogoNde.png">
+        </div>
+      </div>
+    </div>
+    <a class="navbar-brand" href="#page-top"><img src="assets/imagenes/LogoNdeC.png" alt="Logo de noche de las estrellas" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    Menu
+    <i class="fas fa-bars ms-1"></i>
+  </button>
   </div>
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
