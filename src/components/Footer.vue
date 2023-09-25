@@ -3,7 +3,7 @@
 
 <template>
   <div id="app">
-    <footer class="footer py-4">
+    <footer class="footer py">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-start"><b>Derechos Reservados &copy; NdE (Sede Chilpancingo 2023).</b></div>
@@ -16,3 +16,11 @@
         </footer>
   </div>
 </template>
+<script>
+export default {
+  methods: {
+    closeModal() { 
+    },
+  },
+}; 
+</script>

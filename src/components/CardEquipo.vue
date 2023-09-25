@@ -5,7 +5,7 @@
  <div class="row">
                     <div class="col-lg-6">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="./assets/img/team/anaid.png" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/anaid.png" alt="..." />
                             <h4>Anaid Martinez</h4>
                             <p class="text-muted">Developer</p>
                             <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/_ana_______________________/"><i class="fa-brands fa-instagram"></i></a>

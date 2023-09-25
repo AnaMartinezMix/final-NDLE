@@ -10,7 +10,12 @@ import CardServicios from '@/components/icons/CardServicios.vue';
   </div>
   <section class="page-section" id="services">
             <div class="container">
-                <div class="text-center">
+                <div class="tex-centert">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+                        </span>
                     <h2 class="section-heading text-uppercase">Servicios</h2>
                     <h3 class="section-subheading text-muted">Estas son las actividades gratuitas que realizamos</h3>
                 </div>
@@ -42,6 +47,7 @@ import CardServicios from '@/components/icons/CardServicios.vue';
                         <p class="text-muted">¡Tenemos para todas las edades! Preescolar, primaria, secundaria, bachillerato y publico en general.</p>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
         <hr>
