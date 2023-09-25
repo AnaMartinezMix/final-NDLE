@@ -2,7 +2,6 @@
 </script>
 
 <template>
-   <template>
    <!-- Parte del modal 1 cuando se le da clic-->
    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -159,9 +158,8 @@
 <script>
 export default {
   methods: {
-    closeModal() { -->
-      <!-- 
+    closeModal() { 
     },
   },
-}; -->
+}; 
 </script>
