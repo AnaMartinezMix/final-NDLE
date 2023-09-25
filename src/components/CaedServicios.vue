@@ -3,6 +3,12 @@
 
 <template>
      <div class="row text-center">
+        <div class="tex-centert">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+                        </span>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -30,6 +36,8 @@
                         <p class="text-muted">¡Tenemos para todas las edades! Preescolar, primaria, secundaria, bachillerato y publico en general.</p>
                     </div>
                 </div>
+        </div>
+     </div>
 </template>
 
 <script>

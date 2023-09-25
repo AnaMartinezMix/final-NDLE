@@ -2,11 +2,8 @@
 </script>
 
 <template>
-    
-</template>
 
-<script>
-</script>
+</template>
 
 <style>
 .btn-primary {

@@ -1,13 +1,7 @@
 <script setup lang="ts">
-import nuestroequipo from '@/components/views/Nuestroequipo.vue';
-import CardEquipo from '@/components/icons/CardEquipo.vue';
 </script>
 
 <template>
-  <div>
-    <nuestroequipo/>
-    <CardEquipo/>
-  </div>
   <section class="page-section bg-red" id="team">
             <div class="container">
                 <div class="text-center">
@@ -21,11 +15,3 @@ import CardEquipo from '@/components/icons/CardEquipo.vue';
         </section>
 </template>
 
-<script>
-export default {
-  methods: {
-    closeModal() { 
-    },
-  },
-}; 
-</script>

@@ -1,12 +1,10 @@
 <script setup lang="ts">
-import Suscribete from '@/components/views/Suscribete.vue';
 import Formulario from '@/components/Formulario.vue';
 
 </script>
 
 <template>
   <div>
-    <Suscribete />
     <Formulario />
   </div>
   <section class="page-section" id="contact">
