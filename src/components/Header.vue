@@ -53,11 +53,11 @@
 }
 
 .bc- {
-  background-color: transparent;
+  background-color: rgba(18, 18, 18, 0.21);
 }
 
 .navbar-nav .nav-link {
-  color: grey; 
+  color: rgb(255, 255, 255); 
   font-size: 20px; 
   margin-right: 20px;
   margin-inline: 10px; 
