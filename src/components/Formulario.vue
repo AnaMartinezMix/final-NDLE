@@ -43,3 +43,13 @@
     </form>
   </template>
   
+<style scoped>
+.formulario{
+  background-image: url("@/assets/imagenes/star1.jpg");
+}
+
+.btn btn-primary{
+  background-color: #DDA0DD;
+  
+}
+</style>

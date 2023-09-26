@@ -7,7 +7,7 @@ const showDetails = ref([false, false, false, false, false, false]);
   <div class="container">
     <!-- Parte del modal 1 cuando se le da clic-->
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 g-4">
         <div class="card">
           <img src="@/assets/imagenes/portafolio/2017.png" class="card-img-top" alt="El espacio revolucionando tu vida(2017)">
           <div class="card-body">
@@ -25,7 +25,7 @@ const showDetails = ref([false, false, false, false, false, false]);
       </div>
 
       <!-- Parte del modal 2 cuando se le da clic-->
-      <div class="col-md-4">
+      <div class="col-md-4 g-4">
         <div class="card">
           <img src="@/assets/imagenes/portafolio/2018.png" class="card-img-top" alt="Cosmovisiones, las historias del cielo(2018)">
           <div class="card-body">
@@ -43,7 +43,7 @@ const showDetails = ref([false, false, false, false, false, false]);
       </div>
 
       <!-- Parte del modal 3 cuando se le da clic-->
-      <div class="col-md-4">
+      <div class="col-md-4 g-4">
         <div class="card">
           <img src="@/assets/imagenes/portafolio/2019.png" class="card-img-top" alt="La tabla periodica (2019)">
           <div class="card-body">
@@ -63,7 +63,7 @@ const showDetails = ref([false, false, false, false, false, false]);
 
     <!-- Parte del modal 4 cuando se le da clic-->
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 g-4">
         <div class="card">
           <img src="@/assets/imagenes/portafolio/2020.png" class="card-img-top" alt="El Universo develado (2020)">
           <div class="card-body">
@@ -81,7 +81,7 @@ const showDetails = ref([false, false, false, false, false, false]);
       </div>
 
       <!-- Parte del modal 5 cuando se le da clic-->
-      <div class="col-md-4">
+      <div class="col-md-4 g-4">
         <div class="card">
           <img src="@/assets/imagenes/portafolio/2021.jpg" class="card-img-top" alt="Armonía y Revolución (2021)">
           <div class="card-body">
@@ -126,6 +126,7 @@ const showDetails = ref([false, false, false, false, false, false]);
 
 .card {
   margin-bottom: 20px; /* Espaciado entre las tarjetas */
+  background-color: blueviolet;
 }
 
 .card-title {
@@ -134,6 +135,7 @@ const showDetails = ref([false, false, false, false, false, false]);
 
 .card-text {
   font-size: 1rem; /* Tamaño del texto de la tarjeta */
+  
 }
 
 .card-body {

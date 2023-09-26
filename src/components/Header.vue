@@ -5,7 +5,7 @@
   <div>
     <nav class="navbar navbar-expand-lg fixed-top bc-">
       <a class="navbar-brand">
-        <img src="@/assets/imagenes/Logo.png" alt="Logo" class="logo-image">
+        <img src="@/assets/imagenes/Logo.png"  width="300" height="150" alt="Logo" class="logo-image">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@
           </li>
         </ul>
       </div>
-     </nav>
+    </nav>
   </div> 
 </template>
 
@@ -56,6 +56,7 @@
   background-color: rgba(18, 18, 18, 0.21);
 }
 
+/* Caracteristicas del menu de la cabecera. */
 .navbar-nav .nav-link {
   color: rgb(255, 255, 255); 
   font-size: 20px; 
@@ -64,6 +65,7 @@
   text-transform: uppercase; 
   transition: color 0.1s; 
 }
+/* Color de fondo de la cabecera. */
 
 .navbar-nav .nav-link:hover {
   color: #c4412300;
