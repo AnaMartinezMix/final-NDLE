@@ -13,6 +13,7 @@ import Nuestroequipo from './views/nuestroequipo.vue';
 
 <template> 
   <Header></Header>
+  
   <RouterView></RouterView>
   <Inicio></Inicio>
   <Conocenos></Conocenos>

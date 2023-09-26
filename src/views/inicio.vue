@@ -14,6 +14,7 @@
 #app {
   display:block;
   justify-content: center;
+  padding-top: 24px;
   align-items: center;
   min-height: 10vh; 
 }
