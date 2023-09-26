@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top bc-">
       <a class="navbar-brand">
         <img src="@/assets/imagenes/Logo.png" alt="Logo" class="logo-image">
       </a>
@@ -16,10 +16,10 @@
             <a class="nav-link" href="inicio">INICIO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="conocenos">CONOCENOS</a>
+            <a class="nav-link" href="conocenos">CONÓCENOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Servicios">SERVICIOS</a>
+            <a class="nav-link" href="servicios">SERVICIOS</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="sedes">SEDES</a>
@@ -28,7 +28,7 @@
             <a class="nav-link" href="nuestroequipo">NUESTRO EQUIPO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">SUSCRIBETE</a>
+            <a class="nav-link" href="Suscribete">SUSCRÍBETE</a>
           </li>
         </ul>
       </div>
@@ -40,34 +40,35 @@
 .cont {
   display: flex;
   justify-content: flex-end;
-  padding: 10px;
+  padding: 100px;
   background-color: transparent;
-  color:transparent;
+  color: transparent;
 }
 
 .logo-image{
   max-width: 190px;
-  height:fit-content;
+  height: fit-content;
   margin-right: 400px;
-  padding-left: 5%;
+  padding-left: 1%;
 }
 
 .bc- {
-  background-color: rgb(52, 31, 147);
+  background-color: transparent;
 }
 
 .navbar-nav .nav-link {
   color: grey; 
   font-size: 20px; 
-  margin-right: 20px; 
+  margin-right: 20px;
+  margin-inline: 10px; 
   text-transform: uppercase; 
   transition: color 0.1s; 
 }
 
 .navbar-nav .nav-link:hover {
-  color: #c44023;
+  color: #c4412300;
 }
-
 </style>
+
 
 

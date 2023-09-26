@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import CardEquipo from '@/components/CardEquipo.vue';
+
 </script>
 
 <template>
@@ -7,11 +9,20 @@
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Equipo 7</h2>
                     <h3 class="section-subheading text-muted">Participamos en la creación y el desarrollo de está página web.</h3>
-                </div>
+                    </div>
+                    </div>
+                        <CardEquipo />
+                    <div class="row">
+                <div class="text-center"><p class="large">Pusimos mucho esfuerzo y dedicación en este proyecto</p></div>
             </div>
-            <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Pusimos mucho esfuerzo y dedicación en este proyecto</p></div>
-                </div>
-        </section>
+    </section>
 </template>
+
+<style scoped>
+.large.text-muted {
+  font-size: 10px; 
+  color: #000000; 
+}
+</style>
+
 

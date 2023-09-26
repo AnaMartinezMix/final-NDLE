@@ -10,34 +10,34 @@
           intención de acercar una observación del cielo a personas cuyas posibilidades de realizarlas sean limitadas.
         </p>
   
-        <a class="btn btn-primary btn-xl text-uppercase" href="#services">Saber más...</a>
+        <a class="btn btn-primary btn-xl text-uppercase" href="#Servicios">Saber más...</a>
       </div>
     </header>
   </template>
   
   <style>
   .head {
-    background-color: #333; /* Cambia el color de fondo del encabezado */
-    color: #fff; /* Cambia el color del texto */
-    padding: 40px 0; /* Añade espacio interno superior e inferior */
-    text-align: center; /* Centra el contenido del encabezado */
+    background-color: transparent; 
+    color: black; 
+    padding: 40px 0; 
+    text-align: center; 
   }
   
   .description {
-    font-size: 18px; /* Cambia el tamaño de fuente del párrafo */
-    margin-bottom: 20px; /* Añade espacio inferior al párrafo */
+    font-size: 25px; 
+    margin-bottom: 30px; 
   }
   
   .btn {
-    background-color: #007bff; /* Cambia el color de fondo del botón */
-    color: #fff; /* Cambia el color del texto del botón */
-    padding: 10px 20px; /* Añade espacio interno al botón */
-    text-decoration: none; /* Quita la decoración de subrayado del botón */
-    border-radius: 5px; /* Agrega bordes redondeados al botón */
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 5px; 
   }
   
   .btn:hover {
-    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón por encima */
+    background-color: #0056b3; 
   }
   </style>
   
