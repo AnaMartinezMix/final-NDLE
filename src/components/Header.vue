@@ -28,7 +28,7 @@
             <a class="nav-link" href="nuestroequipo">NUESTRO EQUIPO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Suscribete">SUSCRÍBETE</a>
+            <a class="nav-link" href="#contacForm">SUSCRÍBETE</a>
           </li>
         </ul>
       </div>
